@@ -1,0 +1,4 @@
+export default {
+    PERSONAL_INFO: 'PERSONAL_INFO',
+    INFO_DETAIL: 'INFO_DETAIL'
+}

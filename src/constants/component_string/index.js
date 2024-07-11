@@ -1,0 +1,17 @@
+export default {
+    DummyAddress: '30,Main City Road Bangalore',
+    PersonalInfo: 'Personal Information',
+    AddressInfo: 'Address Information',
+    AddressInfo: 'Address Information',
+    DummyEmail: 'johnpeter@gmail.com',
+    EmailAddress: 'Email Address',
+    MobileNumber: 'Mobile Number',
+    DummyMobile: '+919876543210',
+    NoRecord: 'No Record Found',
+    DummyName: 'John Peter',
+    Address: 'Address',
+    Country: 'Country',
+    Delete: 'Delete',
+    Close: 'Close',
+    Name: 'Name',
+}
