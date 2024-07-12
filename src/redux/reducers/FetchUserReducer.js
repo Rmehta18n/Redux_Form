@@ -1,6 +1,5 @@
 import { FETCH_USERS_FAILURE, FETCH_USERS_REQUEST, FETCH_USERS_SUCCESS } from "../../constants/action_types"
 
-
 const initialState = {
     loading: false,
     users: [],
