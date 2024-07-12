@@ -2,9 +2,9 @@ import { KeyboardAvoidingView, Platform, ScrollView, Text, View } from "react-na
 import { COMPONENT_STRING, ERROR_MESSAGE, REGEX, ROUTES } from "../constants";
 import { personalInfoStyle } from "../styles/screens/PersonalInfoStyle";
 import CountrySelector from "../components/custom/CountrySelector"
+import { addUser, updateUser } from "../redux/actions/Action";
 import AppTextInput from "../components/common/AppTextInput";
 import AppButton from "../components/common/AppButton";
-import { addUser, updateUser } from "../redux/Action";
 import { useEffect, useRef, useState } from "react";
 import { showErrorMessage } from "../utils";
 import { useDispatch } from "react-redux";
@@ -36,7 +36,7 @@ export default function PersonalInfo({ navigation, route }) {
             setName(user.name)
         }
     }, [user]);
-    //---------- USE EFFECT START ----------//
+    //---------- USE EFFECT END ----------//
 
 
     //---------- CUSTOM FUNCTIONS START ----------//

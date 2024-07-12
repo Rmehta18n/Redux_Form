@@ -19,6 +19,15 @@ const personalInfoStyle = StyleSheet.create({
         marginVertical: 5,
         fontSize: 16,
     },
-
+    errorMsgContainer: {
+        justifyContent: 'center',
+        alignItems: 'center',
+        flex: 1
+    },
+    errorMsgStyle: {
+        color: COLORS.black,
+        fontWeight: 'bold',
+        fontSize: 20,
+    }
 })
 export { personalInfoStyle }

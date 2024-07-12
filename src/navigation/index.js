@@ -3,6 +3,7 @@ import { createStackNavigator } from '@react-navigation/stack'
 import PersonalInfo from "../screens/PersonalInfo";
 import InfoDetail from "../screens/InfoDetail";
 import { ROUTES } from "../constants";
+import GetUser from "../screens/GetUser";
 
 export default function AppNavigation() {
     const Stack = createStackNavigator()
@@ -10,6 +11,11 @@ export default function AppNavigation() {
     return (
         <NavigationContainer>
             <Stack.Navigator>
+                <Stack.Screen
+                    name={ROUTES.GET_USER}
+                    component={GetUser}
+                    options={{ headerShown: false }}
+                />
                 <Stack.Screen
                     name={ROUTES.PERSONAL_INFO}
                     component={PersonalInfo}

@@ -4,12 +4,12 @@ import { View, FlatList, Text, Alert } from 'react-native';
 import ListCard from '../components/list_items/List_Card';
 import EmptyView from '../components/custom/EmptyView';
 import { useDispatch, useSelector } from 'react-redux';
-import { deleteUser } from '../redux/Action';
+import { deleteUser } from '../redux/actions/Action';
 
 
 export default function InfoDetail({ navigation }) {
     //---------- SET STATES START ----------//
-    const users = useSelector(state => state.users);
+    const users = useSelector(state => state.user.users);
     const dispatch = useDispatch()
     //---------- SET STATES END ----------//
 
